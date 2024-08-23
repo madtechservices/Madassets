@@ -1,16 +1,34 @@
 {
-    "name": "madtechservices/mad-assets",
-    "description": "A custom package for Snipe-IT to manage campuses",
-    "autoload": {
-        "psr-4": {
-            "Madtechservices\\MadAssets\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Madtechservices\\MadAssets\\Providers\\MadAssetsServiceProvider"
-            ]
+        "name": "madtechservices/madassets",
+        "description": "A custom package for Snipe-IT to manage campuses",
+        "version": "1.0.0",
+        "keywords": [
+            "laravel",
+            "snipeit",
+            "madmin",
+            "core",
+            "extension"
+        ],
+        "homepage": "https://github.com/madtechservices/madassets",
+        "license": "MIT",
+        "type": "library",
+        "authors": [
+            {
+                "name": "MAD Tech Services",
+                "email": "support@madtechservices.com.au",
+                "role": "Developer"
+            }
+        ],    
+        "autoload": {
+            "psr-4": {
+                "Madtechservices\\MadAssets\\": "src/"
+            }
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Madtechservices\\MadAssets\\Providers\\MadAssetsServiceProvider"
+                ]
+            }
         }
     }
-}
