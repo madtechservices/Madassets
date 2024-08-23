@@ -1,0 +1,16 @@
+{
+    "name": "madtechservices/mad-assets",
+    "description": "A custom package for Snipe-IT to manage campuses",
+    "autoload": {
+        "psr-4": {
+            "Madtechservices\\MadAssets\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madtechservices\\MadAssets\\Providers\\MadAssetsServiceProvider"
+            ]
+        }
+    }
+}
